@@ -9,7 +9,7 @@ class NftMarketplace extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: RoutesScreen.routes,
-      initialRoute: NameScreen.SplashScreen,
+      initialRoute: NameScreen.OnBoardingScreen,
     );
   }
 }
