@@ -3,10 +3,12 @@ class PaddingValue {
 }
 
 class HeightValue {
-  static const double hv100 = 100;
   static const double hv12 = 12;
   static const double hv24 = 24;
   static const double hv50 = 50;
+  static const double hv90 = 90.09259033203125;
+  static const double hv100 = 100;
+  static const double hv122 = 122.52592468261719;
 }
 class WidthValue {
   static const double wV100 = 100;
@@ -17,16 +19,18 @@ class WidthValue {
 }
 
 class BorderRadiusValue {
-  static const double bRd25 = 25;
-  static const double bRd30 = 30;
-  static const double bRd27 = 27.03;
-  static const double bRd58 = 58.03;
   static const double bRd16 = 16.03;
+  static const double bRd25 = 25;
+  static const double bRd27 = 27.03;
+  static const double bRd30 = 30;
+  static const double bRd45 = 45.05;
+  static const double bRd58 = 58.03;
 }
 
 class BlurValue {
   static const double br15 = 15;
   static const double br20 = 20;
+  static const double br72 = 72.07;
 }
 
 class OpacityValue {

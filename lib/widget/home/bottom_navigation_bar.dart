@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:nft_marketplace/core/resources/colors_value.dart';
+import 'package:nft_marketplace/core/resources/size_value.dart';
 
 class WidgetBottomNavigationBar extends StatelessWidget {
   const WidgetBottomNavigationBar({super.key});
@@ -10,7 +11,7 @@ class WidgetBottomNavigationBar extends StatelessWidget {
   Widget build(BuildContext context) {
         double WidthScreen = MediaQuery.of(context).size.width;
     return SizedBox(
-        height: 122.52592468261719,
+        height: HeightValue.hv122,
         child: Stack(
           alignment: Alignment.center,
           children: [
@@ -18,24 +19,24 @@ class WidgetBottomNavigationBar extends StatelessWidget {
               bottom: 0,
               child: ClipRRect(
                 borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(45.05),
-                  topRight: Radius.circular(45.05),
+                  topLeft: Radius.circular(BorderRadiusValue.bRd45),
+                  topRight: Radius.circular(BorderRadiusValue.bRd45),
                 ),
                 child: BackdropFilter(
-                  filter: ImageFilter.blur(sigmaX: 72.07, sigmaY: 72.07),
+                  filter: ImageFilter.blur(sigmaX: BlurValue.br72, sigmaY: BlurValue.br72),
                   child: GestureDetector(
                     onTap: () {},
                     child: Container(
                       width: WidthScreen,
-                      height: 90.09259033203125,
+                      height: HeightValue.hv90,
                       decoration: BoxDecoration(
                         border: Border.all(
                           color: Colors.white.withValues(alpha: 0.1),
                           width: 2,
                         ),
                         borderRadius: BorderRadius.only(
-                          topLeft: Radius.circular(45.05),
-                          topRight: Radius.circular(45.05),
+                          topLeft: Radius.circular(BorderRadiusValue.bRd45),
+                          topRight: Radius.circular(BorderRadiusValue.bRd45),
                         ),
                         color: Colors.white.withValues(alpha: 0.1),
                       ),
