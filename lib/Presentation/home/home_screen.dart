@@ -32,11 +32,8 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
       ),
-
       bottomNavigationBar: WidgetBottomNavigationBar(),
-      
       backgroundColor: ColorsValue.kPrimaryColor,
-
       body: CustomHomeScreen()
     );
   }
