@@ -8,7 +8,6 @@ class StringsTitle {
   static String CardTitle1 = 'Art';
   static String CardTitle2 = 'Virtual Worlds';
   static String CardTitle3 = 'Music';
-
   static String subTitleHomePage = 'Trending collections';
   static String titleTrendingCollections1 = '3D Art';
   static String titleTrendingCollections2 = 'Abstract Art';
@@ -26,4 +25,5 @@ class StringsTitle {
   static String LikeData1 = '5160';
   static String LikeData2 = '1800';
   static String LikeData3 = '2030';
+  static String TitleStats = 'Stats';
 }
